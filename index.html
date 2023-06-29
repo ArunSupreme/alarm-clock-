@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- RealTime Clock -->
+    <div id="realtime-clock">
+        <span>12:01:22 AM</span>
+    </div>
+
+    <!-- Alarm Creation unit -->
+    <div id="alarm-input-container">
+        <input type="text" id="alarm-title-input-box" class="alarm-input-group" placeholder="Enter the title here ....">
+        <input type="text" id="alarm-time-input-box" class="alarm-input-group" placeholder="hh:mm:ss am/pm">
+        <button id="alarm-submit-btn" class="alarm-input-group" >create an  alarm</button>
+    </div>
+
+    <!-- list of alarms -->
+    <ol id="alarm-list"> 
+        <!-- <li>
+            <span class="list-time">00:00:00 AM</span>
+            <span class="list-title">GOTO Sleep</span>
+            <img src="res/trash.svg" alt="delete" class="list-img" data-id="">
+        </li>  -->
+    </ol>
+
+
+    <script src="./script.js"></script>
+
+
+</body>
+</html>

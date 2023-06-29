@@ -1,0 +1,102 @@
+/* resetting default padding and margin to every element */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#realtime-clock{
+    background: rgba(255, 0, 111, 0.91);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#realtime-clock span{
+    font-size: 3rem ;
+    font-family: monospace;
+    padding: 5px;
+}
+
+/* alarm input styling */
+
+
+#alarm-input-container{
+    width: 90%;
+    margin: 8px;
+    text-align: center;
+    
+}
+
+.alarm-input-group{
+    height: 32px;
+    padding: 4px;
+    border-radius: 0;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.alarm-input-group:focus,
+.alarm-input-group:active{
+    border: 1px solid orange;
+    border-radius: none;
+    outline: none;
+}
+
+#alarm-title-input-box{
+    width: 90%;
+    min-width: 100px;
+    max-width: 450px;
+}
+
+#alarm-time-input-box{
+    width: 80%;
+    min-width: 100px;
+    max-width: 400px;
+    letter-spacing: 2px;
+}
+
+#alarm-submit-btn{
+   margin-left: -6px;
+   background: rgb(255, 247, 0);
+}
+
+
+
+
+
+/* alarm list styling */
+
+
+#alarm-list{
+    width: 80%;
+    margin: auto;
+    margin-top: 32px;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+#alarm-list li {
+    display: flex;
+    background: rgba(255, 0, 187, 0.215);
+    margin: 2px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.list-time{
+    flex-grow: 2;
+    min-width: 120px;
+    letter-spacing: 2px;
+}
+
+.list-title{
+    flex-grow: 4;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.list-img{
+    background: rgba(255, 0, 0, 0.575);
+}
